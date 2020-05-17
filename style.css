@@ -7,12 +7,29 @@ html {
 }
 
 body {
-    background: #2C2141;
+    background-image: url(background.png);
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.fab {
+    font-size: 32px;
+    padding: 0 10px;
+    transition: .3s linear;
+}
+
+.fab:hover {
+    padding-left: 0;
+    padding-right: 20px;
+    color: royalblue;
+}
+
+.fa-github-square:hover {
+    color: black;
 }
 
 .main {
@@ -25,7 +42,7 @@ body {
 
 .person {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .person__description {
@@ -43,7 +60,7 @@ body {
 }
 
 .person__link {
-    color: #E20613;
+    color: crimson;
     text-decoration: none;
 }
 
